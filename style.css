@@ -47,8 +47,15 @@ body {
     left: 33vw;
 }
 
+/* Pseudoclasses */
 
-@media (min-width:300px) {
+.randomise-button:hover {
+    background-color: rgba(255, 228, 196, 0.466);
+}
+
+/* Media Queries */
+
+@media screen and (min-width:300px) {
     .randomise-button-placer {
         left: 30vw;
         top: 85vh;
@@ -86,6 +93,9 @@ body {
     }
 }
 
-.randomise-button:hover {
-    background-color: rgba(255, 228, 196, 0.466);
+@media (max-height: 850px) {
+    #quote {
+        font-size: 2.3rem;
+    }
 }
+
